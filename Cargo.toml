@@ -23,7 +23,7 @@ tonic = { version = "~0.12", features = ["tls"] }
 prost = { version = "~0.13", features = ["std", "prost-derive"] }
 prost-types = "~0.13"
 prost-wkt = "~0.6"
-prost-wkt-types = "~0.6"
+prost-wkt-types = { version = "~0.6", features = ["vendored-protoc"] }
 serde = { version = "~1.0", features = ["derive"] }
 http = "1"
 veil = "~0.1"
